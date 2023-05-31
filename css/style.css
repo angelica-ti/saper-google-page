@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Catull';
+    src: url('catull-maisfontes.d272/catull.ttf') format('truetype');
+    /* Adicione mais formatos (como woff, woff2, etc.) se desejar suporte a navegadores mais antigos */
+  }
+  
+  *{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+  /* Use a fonte em um seletor específico */
+  span {
+    font-family: 'Catull', serif;
+    font-size: 150px;
+    text-shadow: 5px 10px 9px rgb(128, 128, 128),
+                -1px -4px 5px rgb(255, 255, 255),
+                0px 0px 10px rgb(255, 255, 255),
+                2px 2px 5px rgb(4, 4, 4),
+                0px 0px 0px rgb(4, 4, 4);
+                 
+
+    font-weight: lighter;
+    letter-spacing: -7px;
+  }
+
+  .text-google{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .color-b{
+    color: rgba(0, 0, 253, 0.525);
+    /* rgba(56, 56, 213) */
+  }
+
+  .color-r{
+    color: rgba(255, 0, 0, 0.562);
+  }
+
+  .color-y{
+    color: rgba(255, 213, 0, 0.5);
+  }
+
+  .color-g{
+    color: rgba(0, 255, 0, 0.486);
+  }
+
+  input{
+    margin-bottom: 5px;
+    width: 33%;
+    height: 25px;
+    border: 2px  solid rgba(180, 180, 180, 0.742);
+  }
+
+  button{
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(92, 91, 91);
+    border: 2px  solid rgba(180, 180, 180, 0.742);
+  }
+
+  .main-text{
+    font-size: 20px;
+  }
+
+  .msg{
+    margin: 3% 0% 5% 0%;
+  }
+
+  a{
+    color:rgb(18, 7, 173);
+  }
+
+  .rodape{
+    font-size: 14px;
+  }
+
+  sup {
+    display: inline-block;
+    vertical-align: super;
+    position: relative;
+    margin-left: 7px;
+    top: -4em; /* Ajuste a posição conforme necessário */
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
